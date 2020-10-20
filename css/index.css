@@ -130,6 +130,7 @@ footer{
     grid-template: 
     "redes redes redes redes"
     "footer footer footer cop";
+    margin: 0;
     
 }
 /*---------------FOOTER-Redes-----------------*/
