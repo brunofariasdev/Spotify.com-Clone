@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Rubik', sans-serif;
+    
 }
 
 #container{
@@ -16,9 +17,10 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 54px;
+    position: fixed;
 }
 
 header img{
@@ -31,10 +33,143 @@ header img{
 header i{
     color: #fff;
     font-size: 1.6rem;
-    padding: 1rem;
+    margin: 1rem;
     cursor: pointer;
+    display: block;
     
 }
+@media screen and (max-width: 768px){
+    
+    header{
+        justify-content: space-between;
+    }
+
+   
+
+}
+
+@media screen and (min-width: 768px){
+    header i{
+        display: none!important;
+    }
+    #sobre{
+        flex-direction: row!important;
+        flex-wrap: wrap;
+        height: 370px!important;
+        justify-content: center;
+        
+    }
+    #sobre img{
+        margin: 35px 0 0 20px !important;
+        
+    }
+    main{
+        background-size: 54%!important;
+        background-position:right 10%  center;
+    }
+    #menudesk{
+        display: block!important;
+    }
+}
+
+#menudesk{
+   display: none;
+   
+}
+
+#menudesk ul{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+#menudesk ul li{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+/*----------Menu-Mobile---------*/
+#menumb{
+    position: absolute;
+    background-color: #121212;
+    width: 95%;
+    height: 100vh;
+    margin-left: 5%;
+    display: none;
+
+}
+
+#options{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#options ul{
+    margin: 26px;
+}
+#options ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 16px;
+    outline: none;
+    cursor: pointer;
+
+}
+#options ul li:hover, #options button:hover, #log a:hover, #redes a i:hover{
+    color: #1ED760;
+}
+
+
+#options button{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#log{
+    display: flex;
+    flex-direction: column;
+    margin: 26px;
+    
+}
+
+
+#log a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #e2d7d7;
+    margin-top: 17px;
+
+}
+
+#log img{
+    margin: 45% 0 0 0;
+    height: 27px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+
+
 
 /*---------------MAIN-----------------*/
 
@@ -43,7 +178,7 @@ main{
     display: flex;
     flex-direction: column;
     background-image: url(https://www.scdn.co/i/home/lieVariants/bursts-mobile.svg);
-    background-size: 183%;
+    background-size: 130%;
     background-position: top 40% center;
     height: 610px;
     background-color: #2D46B9;
@@ -57,6 +192,7 @@ main h1{
     text-align: center;
 
 }
+
 
 main p{
     font-size: 1rem;
@@ -83,7 +219,6 @@ main button{
 /*---------------SOBRE-----------------*/
 
 #sobre{
-    width: 100%;
     height: 800px;
     background-color: #121212;
     display: flex;
@@ -113,6 +248,7 @@ main button{
     list-style: none;
     padding-top: 20px;
     font-size: 0.9rem;
+    width: 200px;
 }
 
 .item-list:hover{
@@ -124,11 +260,9 @@ main button{
 
 footer{
     width: 100%;
-    height: 200px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template: 
-    "redes redes redes redes"
+    grid-template-columns: 1fr 1fr;
+    grid-template:     
     "footer footer footer cop";
     margin: 0;
     
@@ -155,7 +289,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    
+    margin: 25px 0 0 10px;
     
 }
 
@@ -173,6 +307,7 @@ footer{
     margin: 10px;
     list-style: none;
     text-decoration: none;
+
 }
 
 

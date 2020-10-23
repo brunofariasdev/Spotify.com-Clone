@@ -9,13 +9,47 @@
     
     <title>Spotify</title>
 </head>
-<body>
+<body id="body">
+    <div id="menumb">
+            <div id="options">
+                <ul>
+                    <li>Premium</li>
+                    <li>Ajuda</li>
+                    <li>Baixar</li>
+                </ul>
+                <button id="btnmb" onclick="btnOn()">X</button>
+            </div>
+            <div id="log">
+        
+                    <a href="#">Inscrever-se</a>
+                    <a href="#">Entrar</a>
+                    <img src="img/logo.svg" alt="Logo Spotify">
+                
+             </div>  
+    </div>
+
+   
+        
     <div id="container">
 
         <header>
             <img src="img/logo.svg" alt="Logo Spotify">
+
+
+            <div id="menudesk">
+                <ul >
+                    <li>Premium</li>
+                    <li>Ajuda</li>
+                    <li>Baixar</li>
+                
+                    <li>Inscrever-se</li>
+                    <li>Entrar</li>
+                   
+                </ul>
+        
+            </div>
             
-            <i class="fas fa-bars"></i>
+            <i onclick="btnOn()" class="fas fa-bars"></i>
         </header>
 
         <main>
@@ -53,9 +87,6 @@
                 <li class="item-list">Retrospectiva 2020</li>
             </ul>
 
-        </section>
-
-        <footer>
             <div id="redes">
                 <a href="#">
                     <i class="fab fa-instagram"></i>
@@ -68,6 +99,10 @@
                 </a>
                 
             </div>
+
+        </section>
+
+        <footer>
             <div id="menu-footer">
                 <a href="#">Legal</a>
                 <a href="#">Centro de Privacidade </a>
@@ -84,6 +119,6 @@
 
 
     
-    
+    <script src="js/index.js"></script>
 </body>
 </html>
