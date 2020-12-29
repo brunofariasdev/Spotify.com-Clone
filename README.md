@@ -4,6 +4,8 @@
 
 Clone Spotify.com
 
+<a href="https://zealous-lichterman-fb968b.netlify.app/">Project Online</a>
+
 ## Start:
 
 ```sh
@@ -33,7 +35,7 @@ $ yarn start
 	Mobile
 <p align="center">
 
-  <img width="330px" height="630px" src="#" alt="Login Mobile"></a>
+  <img width="330px" height="630px" src="#" alt=""></a>
 </p>
 
 ## Credits
