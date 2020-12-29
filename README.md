@@ -24,7 +24,7 @@ $ yarn install
 $ yarn start
 ```
 
-## Intefaces:
+## Screens:
 	Desktop
 <p align="center">
 
