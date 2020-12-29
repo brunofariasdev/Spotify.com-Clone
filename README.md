@@ -26,7 +26,7 @@ $ yarn start
 	Desktop
 <p align="center">
 
-  <img width="100%" height="100%" src="https://ibb.co/ccWvY4F" alt="Spotify WebSite"></a>
+  <img width="100%" height="100%" src="https://i.ibb.co/4Zbf1hT/joxi-screenshot-1609265936283.png" alt="Spotify WebSite"></a>
 </p>
 
 ---
